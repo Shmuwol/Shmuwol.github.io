@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Scoring My First ruby Gem
+categories: [ruby]
 ---
 
 

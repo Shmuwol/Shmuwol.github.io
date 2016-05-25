@@ -1,21 +1,18 @@
-# Site settings
 title: Shmully Wolfson
-header-img: img/home-bg.png
-email: shmullywolfson@gmail.com
-copyright_name: Shmully Wolfson
-description: > # this means to ignore newlines until "baseurl:"
-  Web Developer
-baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: shmullywolfson
-github_username:  Shmuwol
-learn_profile: Shmuwol
-email_username: shmullywolfson@gmail.com
-
-# Build settings
+description: My Personal Tech Blogings
+author: Shmully Wolfson
+github: https://github.com/shmuwol
+about: I am student at Flairon School - Learn.co
+urls:
+    - text: About Me
+      url: /about/
+    - text: Github
+      url: https://github.com/shmuwol
+    - text: XML Feed
+      url: /feed.xml
+url: "https://shmuwol.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+gems: [jekyll-paginate]
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-gems: [jekyll-paginate, jekyll-feed]

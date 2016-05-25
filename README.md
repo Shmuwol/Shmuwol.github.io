@@ -1,24 +1,21 @@
-#Clean Blog by Start Bootstrap - Jekyll Version
+## My Stack Problems
 
-The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
+> This project forked and has been modified from [A simple grey theme for Jekyll](https://github.com/liamsymonds/simplygrey-jekyll), and the search posts using [Super Search](https://github.com/chinchang/super-search)
 
-###[View Live Demo &rarr;](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
+### Demo
+* [https://agusmakmun.github.io](https://agusmakmun.github.io)
 
-## Before You Begin
+#### Feature
 
-In the _config.yml file, the base URL is set to /startbootstrap-clean-blog-jekyll which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
+* Sitemap and XML Feed
+* Paginations in homepage
+* Posts under category
+* Realtime Search Posts _(title & description)_ under query.
+* Related Posts
+* Highlight pre
+* Next & Previous Post
+* Disqus comment
 
-It should look like this:
-`baseurl: ""`
+#### Screenshot
 
-## What's Included
-
-A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
-
-A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
-
-You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
-
-## Support
-
-Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
+![Screenshot Post Page](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/screenshot-post-page.png  "Screenshot Post Page")

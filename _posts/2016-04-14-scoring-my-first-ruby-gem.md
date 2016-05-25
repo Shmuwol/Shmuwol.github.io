@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scoring My First ruby Gem
+title: "Scoring My First ruby Gem"
 categories: [ruby]
 ---
 
@@ -8,6 +8,8 @@ categories: [ruby]
 Before I get into the technical details, let me just jot down my initial idea and then I'll attempt to break down how it was done.
 
 As part of [Flatiron School][6]'s [remote][7] Full Stack Development course, I was instructed to create a CLI scraper Ruby Gem As a solo challenge that will be reviewed upon completion by a senior instructor as an assessment.
+
+***
 
 ### Gem Requirements
 
@@ -29,7 +31,10 @@ I have to admit, I was pretty overwhelmed at first, I felt like a kid removing t
 
 While looking for a data source for my gem I first tried scraping mlb.com and ESPN using Nokogiri, the problem I encountered was both sites were using some sort of page rendering and I wasn't getting any of the data I wanted, and then I found the holy grail, MLB API. my first impression was, SO MUCH DATA!
 
+***
 ![][8]
+
+***
 
 The good thing about a lot of data is that you have lot of data, the bad part of a lot of data is.. A _lot_ of data. It can be pretty overwhelming for a newbie to work with API's, especially a data heavy API like MLB, baseball after all, is a game of numbers.
 
@@ -41,7 +46,13 @@ While I was trying to make sense of the copious amount of data thrown at me I wa
 
 MLB's API can be found at [http://gd2.mlb.com/components/][1] and it looks like this:
 
+
+
 ![][9]
+
+
+
+***
 
 The url can be broken down in 3 parts as follows;
 
@@ -49,13 +60,19 @@ The url can be broken down in 3 parts as follows;
 2. [year_2009/month_11/day_04][11]
 3. [/master_scoreboerd.json][12]
 
+***
+
 This first part of the URL will get you to the index of all the way back to 1927, there are some earlier indices but 1927 is the first year with a scoreboard.
 
 The second part selects the year and month and day, this gives you yet another index with 'stuff', but still no Json, this json dude is really playing hard to get… but we're almost there.
 
 Finally we have [/master_scoreboerd.json][12], the elusive json we've been looking for, we finally have the json we need!
 
+***
+
 ![][13]
+
+***
 
 
 
@@ -67,6 +84,11 @@ To conclude this post I'll try to sum up a few of the interesting stuff I learne
 2. Json is pretty much a giant hash, so knowing your way around hashes is pretty useful
 3. The [Date][16] module that comes with ruby is pretty cool, you get access to all the awesomeness by requiring the module.
 
+***
+
+  [![yankee_score](http://img.youtube.com/vi/2XFf4SiArYQ/0.jpg)](http://www.youtube.com/watch?v=2XFf4SiArYQ "yankee_score Gem ")
+
+***
 
 
 Check out my gem on [GitHub][17] or on [RubyGems.org][18] or reach out to me on [Twitter][19]
@@ -75,6 +97,7 @@ Check out my gem on [GitHub][17] or on [RubyGems.org][18] or reach out to me on 
 
 
 [1]: http://gd2.mlb.com/components/
+[2]: https://youtu.be/2XFf4SiArYQ
 [6]: http://flatironschool.com/
 [7]: http://learn.co
 [8]: http://i.giphy.com/je3BjJsPhsdmE.gif

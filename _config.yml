@@ -2,12 +2,15 @@ title: Shmully Wolfson
 description: My Personal Tech Blogings
 author: Shmully Wolfson
 github: https://github.com/shmuwol
+twitter_username: ShmullyWolfson
 about: I am student at Flairon School - Learn.co
 urls:
     - text: About Me
       url: /about/
     - text: Github
       url: https://github.com/shmuwol
+    - text: Twitter
+      url: https://twitter.com/ShmullyWolfson
     - text: XML Feed
       url: /feed.xml
 url: "https://shmuwol.github.io"

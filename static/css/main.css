@@ -11,6 +11,10 @@ body {
     color: #666;
     font-weight: 300;
 }
+
+img {
+
+}
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -49,7 +53,7 @@ h2 {
     margin-bottom: 5px;
     color: #666666;
 }
-        
+
 h3 {
     font-weight: normal;
     margin-bottom: 5px;
@@ -85,7 +89,7 @@ div.right {
     width: 500px;
     float: left;
 }
-           
+
 div.content {
     border-top: 1px solid #E6E6E6;
     margin-top: 5px;

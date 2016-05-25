@@ -32,7 +32,7 @@ I have to admit, I was pretty overwhelmed at first, I felt like a kid removing t
 While looking for a data source for my gem I first tried scraping mlb.com and ESPN using Nokogiri, the problem I encountered was both sites were using some sort of page rendering and I wasn't getting any of the data I wanted, and then I found the holy grail, MLB API. my first impression was, SO MUCH DATA!
 
 ***
-![][8]
+![][8]{: .img-responsive }
 
 ***
 
@@ -48,7 +48,7 @@ MLB's API can be found at [http://gd2.mlb.com/components/][1] and it looks like 
 
 
 
-![][9]
+![][9]{: .img-responsive }
 
 
 
@@ -70,7 +70,7 @@ Finally we have [/master_scoreboerd.json][12], the elusive json we've been looki
 
 ***
 
-![][13]
+![][13]{: .img-responsive }
 
 ***
 
@@ -86,7 +86,7 @@ To conclude this post I'll try to sum up a few of the interesting stuff I learne
 
 ***
 
-  [![yankee_score](http://img.youtube.com/vi/2XFf4SiArYQ/0.jpg)](http://www.youtube.com/watch?v=2XFf4SiArYQ "yankee_score Gem ")
+[![yankee_score](http://img.youtube.com/vi/2XFf4SiArYQ/0.jpg)](http://www.youtube.com/watch?v=2XFf4SiArYQ "yankee_score Gem ")
 
 ***
 
@@ -100,7 +100,7 @@ Check out my gem on [GitHub][17] or on [RubyGems.org][18] or reach out to me on 
 [2]: https://youtu.be/2XFf4SiArYQ
 [6]: http://flatironschool.com/
 [7]: http://learn.co
-[8]: http://i.giphy.com/je3BjJsPhsdmE.gif
+[8]: /static/img/data.gif
 [9]: https://cdn-images-1.medium.com/max/800/1*BNdJcxTgkUSDx5REkGfmig.png
 [10]: http://gd2.mlb.com/components/game/mlb/year_2016/month_04/day_09/master_scoreboard.json
 [11]: http://gd2.mlb.com/components/game/mlb/year_2009/month_11/day_04/

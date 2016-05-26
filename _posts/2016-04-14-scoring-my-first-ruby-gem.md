@@ -84,7 +84,6 @@ To conclude this post I'll try to sum up a few of the interesting stuff I learne
 2. Json is pretty much a giant hash, so knowing your way around hashes is pretty useful
 3. The [Date][16] module that comes with ruby is pretty cool, you get access to all the awesomeness by requiring the module.
 
-Check out my gem on [GitHub][17] or on [RubyGems.org][18] or reach out to me on [Twitter][19]
 
 ***
 ![yankee_score][2]{: .img-responsive }
@@ -92,7 +91,9 @@ Check out my gem on [GitHub][17] or on [RubyGems.org][18] or reach out to me on 
 ***
 
 
+##### Check out my gem on [GitHub][17] or on [RubyGems.org][18] or reach out to me on [Twitter][19]
 
+***
 
 
 

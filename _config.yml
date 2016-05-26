@@ -19,3 +19,4 @@ paginate: 20
 per_page: 20
 gems: [jekyll-paginate]
 markdown: kramdown
+youtube: https://youtu.be/

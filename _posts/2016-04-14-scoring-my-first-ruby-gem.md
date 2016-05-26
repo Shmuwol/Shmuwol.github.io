@@ -84,20 +84,21 @@ To conclude this post I'll try to sum up a few of the interesting stuff I learne
 2. Json is pretty much a giant hash, so knowing your way around hashes is pretty useful
 3. The [Date][16] module that comes with ruby is pretty cool, you get access to all the awesomeness by requiring the module.
 
-***
-
-[![yankee_score](http://img.youtube.com/vi/2XFf4SiArYQ/0.jpg)](http://www.youtube.com/watch?v=2XFf4SiArYQ "yankee_score Gem ")
-
-***
-
-
 Check out my gem on [GitHub][17] or on [RubyGems.org][18] or reach out to me on [Twitter][19]
+
+***
+![yankee_score][2]{: .img-responsive }
+
+***
+
+
+
 
 
 
 
 [1]: http://gd2.mlb.com/components/
-[2]: https://youtu.be/2XFf4SiArYQ
+[2]: /static/img/gem_gif.gif
 [6]: http://flatironschool.com/
 [7]: http://learn.co
 [8]: /static/img/data.gif

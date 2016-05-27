@@ -6,7 +6,7 @@ date:   2016-05-27 05:17:05 +0000
 
 #### Why code?!
 
-Why did Derek Jeter learn how to play baseball? I know, I'm no Jeter, nor do I play Baseball or even write code like an Allstar (yet!),  heck, most of the time when I code I feel like a bush league player facing Mariano Rivera's Cutter, so why than did I decide to learn software development?!
+Why did Derek Jeter learn how to play baseball? I know, I'm no Jeter, nor do I play Baseball or even write code like an Allstar (yet!),  heck, most of the time when I code I feel like a bush league player facing Mariano Rivera's Cutter, so why then did I decide to learn software development?!
 
 #### Fans vs. Players
 
@@ -60,4 +60,3 @@ At some point of a baseball players childhood they came to the realization that 
 In other words, the difference between a player and a fan is passion. Of course fans have passion for the game too, but the passion is from the outside in, as a spectator not as a participant, when the Sh*t hits the fan (pun intended) the fan leaves, or gives up, the player is the one who refuses to give up.
 
 Some players take more time, some take less, some struggle more then others, but players never give up, be a player, and never give up!! as the [The Flatiron School](http://flatironschool.com/) and [Learn’s](http://learn.co/with/Shmuwol) motto goes, **Learn. Love. Code!**.
-

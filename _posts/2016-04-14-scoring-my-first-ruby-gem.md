@@ -4,6 +4,7 @@ title: "Scoring My First ruby Gem"
 categories: [ruby]
 ---
 
+#### What the Gem?!
 
 Before I get into the technical details, let me just jot down my initial idea and then I'll attempt to break down how it was done.
 
@@ -11,15 +12,16 @@ As part of [Flatiron School][6]'s [remote][7] Full Stack Development course, I w
 
 ***
 
-### Gem Requirements
+#### Gem Requirements
 
-1. _Package as a gem_
-2. _Provide a CLI on gem installation._
-3. _CLI must provide data from an external source, whether scraped or via a public API._
-4. _Data provided must go at least a level deep, generally by showing the user a list of available data and then being able to drill into a specific item._
+> 1. _Package as a gem_
+  2. _Provide a CLI on gem installation._
+  3. _CLI must provide data from an external source, whether scraped or via a public API._
+  4. _Data provided must go at least a level deep, generally by showing a list of available data and then being able to drill into a specific item._
 
 
-### Coming up with with a Gem idea
+
+#### Coming up with with a Gem idea
 
 This was the first time as a Web Development student that I had to come up with an idea for a project and code it on my own, so naturally I turned to my other love, Baseball, I was to create a CLI gem to give me the MLB scores with a focus on the Yankees.
 
@@ -27,7 +29,7 @@ I have to admit, I was pretty overwhelmed at first, I felt like a kid removing t
 
 ***
 
-### MLB API
+#### MLB API
 
 While looking for a data source for my gem I first tried scraping mlb.com and ESPN using Nokogiri, the problem I encountered was both sites were using some sort of page rendering and I wasn't getting any of the data I wanted, and then I found the holy grail, MLB API. my first impression was, SO MUCH DATA!
 
@@ -42,7 +44,7 @@ While I was trying to make sense of the copious amount of data thrown at me I wa
 
 ***
 
-### Where to begin
+#### Where to begin
 
 MLB's API can be found at [http://gd2.mlb.com/components/][1] and it looks like this:
 
@@ -76,7 +78,7 @@ Finally we have [/master_scoreboerd.json][12], the elusive json we've been looki
 
 
 
-### My Gem
+#### My Gem
 
 To conclude this post I'll try to sum up a few of the interesting stuff I learned in the process of this project.
 

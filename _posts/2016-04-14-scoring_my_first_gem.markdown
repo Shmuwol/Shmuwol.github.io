@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scoring my first gem"
-date:   2016-06-27 04:10:52 +0000
+date:   2016-04-14 04:10:52 +0000
 ---
 
 ## What the Gem?!
@@ -115,4 +115,4 @@ To conclude this post I'll try to sum up a few of the interesting stuff I learne
 [16]: http://robdodson.me/playing-with-ruby-dates/
 [17]: https://github.com/Shmuwol/yankee_score
 [18]: https://rubygems.org/gems/yankee_score
-[19]: https://twitter.com/ShmullyWolfsonThe 
+[19]: https://twitter.com/ShmullyWolfsonThe

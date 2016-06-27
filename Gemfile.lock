@@ -123,6 +123,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-paginate (~> 1.1)
+  jekyll-redirect-from
   jekyll-watch (~> 1.4)
   json (~> 1.8, >= 1.8.3)
   rouge (~> 1.10, >= 1.10.1)
@@ -130,4 +131,4 @@ DEPENDENCIES
   thor
 
 BUNDLED WITH
-   1.11.2
+   1.12.5

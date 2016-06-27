@@ -18,7 +18,7 @@ baseurl: ""
 permalink: pretty
 paginate: 20
 per_page: 20
+gems: [jekyll-paginate]
 markdown: kramdown
 gems:
   - jekyll-redirect-from
-  - jekyll-paginate

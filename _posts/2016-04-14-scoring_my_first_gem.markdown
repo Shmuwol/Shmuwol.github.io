@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scoring my first gem"
-redirect_from: /2016/06/27/scoring_my_first_gem
+redirect_from: /2016/06/27/scoring_my_first_gem/
 date:   2016-04-14 04:10:52 +0000
 ---
 

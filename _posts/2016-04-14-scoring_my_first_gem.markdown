@@ -2,6 +2,7 @@
 layout: post
 title:  "Scoring my first gem"
 date:   2016-04-14 04:10:52 +0000
+redirect_from: _posts/2016-04-14-scoring_my_first_gem.markdown
 ---
 
 ## What the Gem?!

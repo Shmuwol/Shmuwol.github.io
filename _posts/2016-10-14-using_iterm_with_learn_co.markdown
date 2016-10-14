@@ -5,19 +5,19 @@ date:   2016-10-14 06:44:15 +0000
 ---
 
 
-I use iTerm instead of the Mac Terminal app as part of my Learn  development workflow, I've been  using it for quite some time now and as I was writing this post I wasn't sure what some of the differences are between iTerms and the Terminal.app since I don't use the Terminal app to often, [here](http://iterm2.com/features.html) are features if you're interested.
+I use iTerm instead of the Mac Terminal app as part of my Learn  development workflow, [here](http://iterm2.com/features.html) are some of the iTerm offers.
 
 ### Learn open iTerm
 
-When starting a new Learn lab you click the `Learn` button on learn.co and  the lab is forked and cloned to my local environment and then it launches the Terminal.app at the labs directory  (If you're using the Learn IDE, the lab opens in the IDE terminal instead).
+When starting a new lab on you  can click the `Learn` button  and  the lab is then forked and cloned to the local environment and the Terminal.app is launched at the labs directory. please note, if you're using the Learn IDE, the lab opens in the IDE's terminal instead.
 
-My problem was, I wanted to open the lab in the iTerm app instead of the native Terminal.app, after asking some of the Learn devs if there was a way to switch Terminal app in the learn-config file (the default editor and learn directory can be changed at `cd ~/.learn-config` and open in editor) I was told that there currently wasn't a way to do so , and since most students use the Terminal app, and said app is pretty awesome, adding this feature, understatedly,  wasn't a top  priority, so I jest left it at that and continued using the Terminal app.
+I wanted to open the lab in the iTerm app instead of the native Terminal.app, after asking some of the Learn devs if there was a way to switch Terminal app in the learn-config file (the default editor and learn directory can be changed at `cd ~/.learn-config` and open in editor) I was told that there currently wasn't a way to do so , and since most students use the Terminal app, and said app is pretty awesome, adding this feature, understatedly,  wasn't a top  priority, so I jest left it at that and continued using the Terminal app.
 
 Then, one day I put on my procrastinator hat and set out on a mission to try to create a workflow to use iTerm with learn and here is how I did it (sort of!).
 
 ## Creating the Shell Script
 
-A bit of googling how to open an app in terminal turned up [this](http://osxdaily.com/2007/02/01/how-to-launch-gui-applications-from-the-terminal/) article, so I tried `open -a iterm` in the terminal app and iTerm was launched but not in the same directory, it simply opened the iTerm app, after a while of tinkering and trying to figure out how can I save the  `pwd`  return to a variable and send that to iTerm I realized that `open` is just a bash command to open something, and in bash `.` stands for current directory so I tried  `open . -a iterm` and voila... it worked! 
+A bit of googling how to open an app in terminal turned up [this](http://osxdaily.com/2007/02/01/how-to-launch-gui-applications-from-the-terminal/) article, so I tried `open -a iterm` in the terminal app and iTerm was launched but not in the same directory, it simply opened the iTerm app, after a while of tinkering and trying to figure out how can I save the  `pwd`  return to a variable and send that to iTerm I realized that `open` is just a bash command to open something, and in bash `.` stands for current directory so I tried  `open . -a iterm` and voila... it worked!
 
 Next I created a bash [alias](http://www.techradar.com/how-to/computing/apple/terminal-101-creating-aliases-for-commands-1305638), like this; `alias itm="open . -a iterm` and lived happily ever after.... NOT, I now ended up with both Terminal and iTerm open and found it tedious to manually close the Terminal app every time I ran this alias, so back to google I went, oh google, my one true love....
 
@@ -41,5 +41,4 @@ function itm {
 ```
 
 
-If you know of a better way to accomplish this, or have any questions please comment below. 
-
+If you know of a better way to accomplish this, or have any questions please comment below.

@@ -4,6 +4,9 @@ title:  "Using iTerm with Learn.co"
 date:   2016-10-14 06:44:15 +0000
 ---
 
+![iter_learn](/static/img/iterm_learn.png){: .img-responsive }
+
+***
 
 I use iTerm instead of the Mac Terminal app as part of my Learn  development workflow, [here](http://iterm2.com/features.html) are some of the iTerm offers.
 

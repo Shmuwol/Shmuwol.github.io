@@ -23,11 +23,10 @@ validates_format_of :email, :with => /\A[^@\s]+@([^@\s]+\.)+[^@\s]+\z/
 Now that I was able to validate the email format, I wanted to show a an error massage if a user entered a invalid email, so I added it to the [`user`](https://github.com/Shmuwol/Daily-Todo/blob/master/app/controllers/user_controller.rb#L13)<br>
 `post` controller using the `user.authenticate` method, like this:
 
-```erb
+```ruby
 flash[:notice] = "Invalid Email!" if !user.authenticate(params[:email])
 redirect to '/sign_up'
 ```
-
 # 3) `has_many :through`
 
 I was trying to create a `/tasks` route where a user can view all their tasks from all their different lists, but the way I had the data structure set up, a `User` has many Lists, and Lists have many tasks, so I wanted to create a variable `@tasks` where its equal to `current_user.tasks` and I'm thinking, oh no, now I have to redo the database and add a `user_id` to Tasks, and then I had the aha! moment, and I finally understood the use of `has_many :through`, the magic of ActiveRecord creates this association, like this `has_many :tasks, through: :lists` and this lets me use `current_user.tasks`
